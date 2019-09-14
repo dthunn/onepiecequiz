@@ -1,0 +1,106 @@
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <title>Ninja Quiz</title>
+  <script src="https://kit.fontawesome.com/05a38a65bc.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- top section -->
+  <div class="intro py-3 bg-white text-center">
+    <div class="container">
+      <h2 class="text-color display-3 my-4">One Piece Quiz</h2>
+    </div>
+  </div>
+
+  <!-- result section -->
+  <div class="result py-4 d-none bg-light text-center">
+    <div class="container lead">
+      <p><span class="text-primary display-4 p-3">0%</span></p>
+      <p class="pathetic text-center">Pathetic!</p>
+      <p class="meh text-center">Did you try?</p>
+      <p class="ok text-center">Almost...</p>
+      <p class="good text-center">Congrats Nerd!</p>
+    </div>
+  </div>
+
+  <!-- quiz section -->
+  <div class="quiz py-4 bg-primary">
+    <div class="container">
+      <h2 class="my-3 text-white pl-4 test text-center">Test Your Knowledge...</h2>
+
+      <form class="quiz-form text-light px-3 ml-5 ">
+        <div class="my-5">
+          <p class="lead font-weight-normal ">1. Who does Luffy want to be?</p>
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" name="q1" value="A">
+            <label class="form-check-labelz text-white">Pirate King</label>
+          </div>
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" name="q1" value="B">
+            <label class="form-check-label text-white">Wizard King</label>
+          </div>
+        </div>
+        <div class="my-5">
+          <p class="lead font-weight-normal">2. Who is the cook on the Sunny?</p>
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" name="q2" value="A">
+            <label class="form-check-label text-white">Zoro</label>
+          </div>
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" name="q2" value="B">
+            <label class="form-check-label text-white">Sanji</label>
+          </div>
+        </div>
+        <div class="my-5">
+          <p class="lead font-weight-normal">3. What are the 12 rookies captains refered to as?</p>
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" name="q3" value="A">
+            <label class="form-check-label text-white">Worst Generation</label>
+          </div>
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" name="q3" value="B">
+            <label class="form-check-label text-white">Best Generation</label>
+          </div>
+        </div>
+        <div class="my-5">
+          <p class="lead font-weight-normal">4. What is the ultimate treasure?</p>
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" name="q4" value="A">
+            <label class="form-check-label text-white">The one piece</label>
+          </div>
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" name="q4" value="B">
+            <label class="form-check-label text-white">The three piece</label>
+          </div>
+        </div>
+        <div class="text-center">
+          <button type="submit" class="btn btn-light mt-2">Submit</button>
+        </div>
+      </form>
+
+    </div>
+  </div>
+  <!-- Footer -->
+  <footer class="page-footer font-small blue">
+
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-4">
+      <div class="icons pl-5">
+        <a href="#"></a><i class="fab fa-twitter fa-2x px-1"></i></a>
+        <a href="#"><i class="fab fa-facebook fa-2x px-1"></i></a>
+        <a href="#"><i class="fab fa-instagram fa-2x px-1"></i></a>
+      </div>
+    </div>
+    <!-- Copyright -->
+
+  </footer>
+  <!-- Footer -->
+  <script src="app.js"></script>
+</body>

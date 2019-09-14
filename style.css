@@ -1,0 +1,36 @@
+.good {
+  display: none;
+}
+
+.pathetic {
+  display: none;
+}
+
+.meh {
+  display: none;
+}
+
+.ok {
+  display: none;
+}
+
+/* .quiz {
+  background: 
+} */
+
+.quiz {
+  margin: auto;
+  background: url('Untitled-2.jpg') no-repeat center center / cover;
+}
+
+.text-color {
+  color: #1284af;
+}
+
+.fab {
+  color: #1284af;
+}
+
+.container {
+  max-width: 600px;
+}
